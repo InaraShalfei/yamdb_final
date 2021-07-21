@@ -12,3 +12,4 @@ class IsAuthorModerAdmin(permissions.BasePermission):
                 or request.user.role == CustomUser.Role.MODERATOR
                 or request.user.role == CustomUser.Role.ADMIN):
             return True
+        return False

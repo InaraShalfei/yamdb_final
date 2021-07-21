@@ -4,7 +4,7 @@ from rest_framework import filters, mixins, permissions, viewsets
 
 from categories.models import Category, Genre, Title
 from categories.serializers import (CategorySerializer, GenreSerializer,
-                                    TitleWriteSerializer, TitleReadSerializer)
+                                    TitleReadSerializer, TitleWriteSerializer)
 
 from .filters import TitleFilter
 from .paginator import StandardPagination
