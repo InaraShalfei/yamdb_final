@@ -1,4 +1,4 @@
-name: api-app workflow
+name: api-app_yamdb workflow
 
 on: [push]
 
