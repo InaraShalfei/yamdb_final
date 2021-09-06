@@ -1,4 +1,3 @@
-![example workflow](https://github.com/InaraShalfei/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
 
 yamdb_final: http://84.201.128.102/admin
 
