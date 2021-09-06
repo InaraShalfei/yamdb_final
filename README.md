@@ -1,6 +1,11 @@
 ![example workflow](https://github.com/InaraShalfei/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
 
 yamdb_final: http://84.201.128.102/admin
+
+# Проект "Yamdb"
+### Описание
+Проект YaMDb собирает отзывы (Review) пользователей на произведения (Titles).
+
 ### Команда для создания суперпользователя
 ```
 docker-compose exec web python manage.py createsuperuser
